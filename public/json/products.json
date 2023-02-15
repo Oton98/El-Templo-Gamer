@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Smarthphone",
+        "marca": "Samsung",
+        "modelo": "A 04",
+        "precio": 50000,
+        "stock": 20,
+        "img": "samsungA04.jpg"
+
+    },
+
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre": "Smarthphone",
+        "marca": "Samsung",
+        "modelo": "A 04",
+        "precio": 50000,
+        "stock": 20,
+        "img": "samsungA04.jpg"
+
+    },
+
+    {
+        "id": 3,
+        "idCategoria": 15,
+        "nombre": "Motherboard",
+        "marca": "Asus",
+        "modelo": "B550M-K",
+        "precio": 47000,
+        "stock": 20,
+        "img": "samsungA04.jpg"
+
+    },
+
+    {
+        "id": 4,
+        "idCategoria": 64,
+        "nombre": "Disco Solido ",
+        "marca": "Kingston",
+        "modelo": "SA400S37/480G",
+        "precio": 13000,
+        "stock": 20,
+        "img": "samsungA04.jpg"
+
+    },
+
+    {
+        "id": 5,
+        "idCategoria": 33,
+        "nombre": "Memoria Ram",
+        "marca": "Kingston",
+        "modelo": "Fury Beast",
+        "precio": 14000,
+        "stock": 20,
+        "img": "samsungA04.jpg"
+
+    }
+
+]
