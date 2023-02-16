@@ -57,6 +57,40 @@
         "stock": 20,
         "img": "samsungA04.jpg"
 
+    },
+
+    {
+        "id": 30,
+        "idCategoria": 10,
+        "nombre": "Microprocesador",
+        "marca": "Intel",
+        "modelo": "I3 10105 3.7GHZ S1200",
+        "precio": 43700,
+        "stock": 20,
+        "img": "samsungA04.jpg"
+
+    },
+    {
+        "id": 31,
+        "idCategoria": 10,
+        "nombre": "Microprocesador",
+        "marca": "Intel",
+        "modelo": "I5 11400 S1200",
+        "precio": 56890,
+        "stock": 20,
+        "img": "samsungA04.jpg"
+
+    },
+    {
+        "id": 32,
+        "idCategoria": 10,
+        "nombre": "Microprocesador",
+        "marca": "Intel",
+        "modelo": "I7 10700F S1700",
+        "precio": 13000,
+        "stock": 20,
+        "img": "samsungA04.jpg"
+
     }
 
 ]
