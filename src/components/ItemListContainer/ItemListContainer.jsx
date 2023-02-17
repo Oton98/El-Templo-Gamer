@@ -25,9 +25,9 @@ export const ItemListContainer = ({}) => {
     }, [idCategoria])
 
     return (
-        <>
+        <div className="card-Container">
         {productos}
-        </>
+        </div>
     );
 }
 

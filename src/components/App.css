@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(229, 229, 229);
+}
+
+.card-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+    margin: 3vw;
+    padding: 0 10vw;
+
+}
+
+.card {
+    width: 16vw;
+    padding: 8px;
+}
