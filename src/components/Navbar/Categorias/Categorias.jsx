@@ -7,11 +7,11 @@ export const Categorias = () => {
                 <button className="btn btn-dark">Productos PC</button>
             </a>
             <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to={'/category/10'}>Microprocesadores</Link></li>
-                <li><Link className="dropdown-item" to={'/category/11'}>Motherboards</Link></li>
-                <li><Link className="dropdown-item" to={'/category/12'}>Almacenamiento</Link></li>
-                <li><Link className="dropdown-item" to={'/category/13'}>Memoria RAM</Link></li>
-                <li><Link className="dropdown-item" to={'/category/14'}>Placas de video</Link></li>
+                <li><Link className="dropdown-item" to={'/category/Microprocesadores'}>Microprocesadores</Link></li>
+                <li><Link className="dropdown-item" to={'/category/Motherboards'}>Motherboards</Link></li>
+                <li><Link className="dropdown-item" to={'/category/Memoria'}>Almacenamiento</Link></li>
+                <li><Link className="dropdown-item" to={'/category/Ram'}>Memoria RAM</Link></li>
+                <li><Link className="dropdown-item" to={'/category/PlacaDeVideos'}>Placas de video</Link></li>
             </ul>
         </li>
 

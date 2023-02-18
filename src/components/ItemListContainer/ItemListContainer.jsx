@@ -1,16 +1,15 @@
-import {consultarBDD} from "../../components/utils/funciones.js"
+import { consultarBDD } from "../../components/utils/funciones.js"
 import { useParams } from "react-router-dom"
-import {useState, useEffect} from 'react'
-import {ItemList} from '../ItemList/ItemList.jsx'
-export const ItemListContainer = ({}) => {
-    const {idCategoria} = useParams()
+import { useState, useEffect } from 'react'
+import { ItemList } from '../ItemList/ItemList.jsx'
+export const ItemListContainer = ({ }) => {
+    const { idCategoria } = useParams()
     const [productos, setProductos] = useState([])
-    console.log(idCategoria)
-    
+
     useEffect(() => {
-        if (idCategoria){
+        if (idCategoria) {
             consultarBDD('../json/products.json').then(products => {
-                const prods = products.filter(prod => prod.idCategoria === parseInt(idCategoria))
+                const prods = products.filter(prod => prod.idCategoria === idCategoria)
                 const items = ItemList({ prods })
                 setProductos(items)
             })
@@ -20,13 +19,13 @@ export const ItemListContainer = ({}) => {
                 setProductos(items)
             })
         }
-        
-        
+
+
     }, [idCategoria])
 
     return (
         <div className="card-Container">
-        {productos}
+            {productos}
         </div>
     );
 }

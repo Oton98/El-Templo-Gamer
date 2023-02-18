@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "idCategoria": 1,
+        "idCategoria": "Celulares",
         "nombre": "Smarthphone",
         "marca": "Samsung",
         "modelo": "A 04",
@@ -13,7 +13,7 @@
 
     {
         "id": 2,
-        "idCategoria": 1,
+        "idCategoria": "Celulares",
         "nombre": "Smarthphone",
         "marca": "Samsung",
         "modelo": "A 04",
@@ -25,7 +25,7 @@
 
     {
         "id": 3,
-        "idCategoria": 15,
+        "idCategoria": "Motherboards",
         "nombre": "Motherboard",
         "marca": "Asus",
         "modelo": "B550M-K",
@@ -37,7 +37,7 @@
 
     {
         "id": 4,
-        "idCategoria": 64,
+        "idCategoria": "Memoria",
         "nombre": "Disco Solido ",
         "marca": "Kingston",
         "modelo": "SA400S37/480G",
@@ -49,7 +49,7 @@
 
     {
         "id": 5,
-        "idCategoria": 33,
+        "idCategoria": "Ram",
         "nombre": "Memoria Ram",
         "marca": "Kingston",
         "modelo": "Fury Beast",
@@ -58,10 +58,10 @@
         "img": "fury-ram.jpg"
 
     },
-
+    
     {
         "id": 30,
-        "idCategoria": 10,
+        "idCategoria": "Microprocesadores",
         "nombre": "Microprocesador",
         "marca": "Intel",
         "modelo": "I3 10105 3.7GHZ S1200",
@@ -72,7 +72,7 @@
     },
     {
         "id": 31,
-        "idCategoria": 10,
+        "idCategoria": "Microprocesadores",
         "nombre": "Microprocesador",
         "marca": "Intel",
         "modelo": "I5 11400 S1200",
@@ -83,7 +83,7 @@
     },
     {
         "id": 32,
-        "idCategoria": 10,
+        "idCategoria": "Microprocesadores",
         "nombre": "Microprocesador",
         "marca": "Intel",
         "modelo": "I7 10700F S1700",
