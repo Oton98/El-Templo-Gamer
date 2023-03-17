@@ -1,3 +1,4 @@
+//segundo bloque
 import { consultarBDD } from "../../components/utils/funciones.js"
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from 'react'
@@ -10,12 +11,12 @@ export const ItemListContainer = ({ }) => {
         if (idCategoria) {
             consultarBDD('../json/products.json').then(products => {
                 const prods = products.filter(prod => prod.idCategoria === idCategoria)
-                const items = ItemList({ prods })
+                const items = <ItemList prods={prods} plantilla="Item"/> 
                 setProductos(items)
             })
         } else {
             consultarBDD('./json/products.json').then(prods => {
-                const items = ItemList({ prods })
+                const items = <ItemList prods={prods} plantilla="Item"/>
                 setProductos(items)
             })
         }
