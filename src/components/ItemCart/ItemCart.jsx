@@ -15,8 +15,8 @@ export const ItemCart = ({ item }) => {
                 {nombre} {modelo}
               </h5>
               <p className="card-text">Cantidad: {cant}</p>
-              <p className="card-text">Precio Unitario: {precio}</p>
-              <p className="card-text">Subtotal: {cant * precio}</p>
+              <p className="card-text">Precio Unitario: ${new Intl.NumberFormat('de-DE').format(precio)}</p>
+              <p className="card-text">Subtotal: ${new Intl.NumberFormat('de-DE').format(cant * precio)}</p>
               <button
                 className="btn btn-danger"
                 onClick={() => removeItem(id)}

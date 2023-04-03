@@ -6,7 +6,7 @@ import { useCarritoContext } from "../../Context/CarritoContext"
 
 export const Cart = () => {
 
-    const {carrito, emptyCart, totalPrice} = useCarritoContext()
+    const { carrito, emptyCart, totalPrice } = useCarritoContext()
 
     return (
         <>
@@ -19,9 +19,9 @@ export const Cart = () => {
                 <div className="container cartContainer">
                     <ItemList prods={carrito} plantilla="ItemCart" />
                     <div className="divButtons">
-                        <p>Resumen del compra: {totalPrice()} </p>
-                        <button className="btn btn-danger" onClick={()=>
-                        emptyCart()}>Vaciar Carrito</button>
+                        <p>Resumen del compra: ${new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
+                        <button className="btn btn-danger" onClick={() =>
+                            emptyCart()}>Vaciar Carrito</button>
                     </div>
                     <Link className="nav-link" to={"/"}><button className="btn btn-dark">Continuar Compra</button></Link>
                     <Link className="nav-link" to={"/checkout"}><button className="btn btn-dark">Finalizar Compra</button></Link>
