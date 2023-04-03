@@ -50,3 +50,8 @@ body{
 .cardCart{
     max-width: 640px;
 }
+
+.cantCarrito{
+    color: white;
+    margin-left: 8px;
+}

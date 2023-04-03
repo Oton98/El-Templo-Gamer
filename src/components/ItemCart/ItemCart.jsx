@@ -1,12 +1,13 @@
 //cuarto bloque
+import { useCarritoContext } from "../../Context/CarritoContext";
 export const ItemCart = ({ item }) => {
-    const { cant, nombre, modelo, precio, img } = item;
-  
+    const {id, cant, nombre, modelo, precio, img } = item;
+    const {removeItem} = useCarritoContext()
     return (
       <div className="card mb-3 cardCart">
         <div className="rows g-0">
           <div className="col-md-4">
-            <img src={`/img/${img}`} alt={`Imagen de ${nombre}`} />
+            <img src={img} alt={`Imagen de ${nombre}`} />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -18,7 +19,7 @@ export const ItemCart = ({ item }) => {
               <p className="card-text">Subtotal: {cant * precio}</p>
               <button
                 className="btn btn-danger"
-                onClick={() => console.log("Producto Eliminado")}
+                onClick={() => removeItem(id)}
               >
                 {" "}
                 Borrar producto del carrito

@@ -1,17 +1,20 @@
 import { ItemCount } from "../ItemCount/ItemCount";
 import { Link } from "react-router-dom";
+import { useCarritoContext } from "../../Context/CarritoContext";
 
 export const ItemDetail = ({ prod }) => {
 
+    const {addItem} = useCarritoContext()
+
     const onAdd = (cantidad) => {
-        console.log(cantidad)
+        addItem(prod, cantidad)
     }
 
     return (
         <div className="card mb-3" style={{ maxWidth: '540px' }}>
             <div className="row g-0">
                 <div className="col-md-4">
-                    <img src={`../img/${prod.img}`} className="img-fluid rounded-start" alt="..." />
+                    <img src={prod.img} className="img-fluid rounded-start" alt="..." />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">

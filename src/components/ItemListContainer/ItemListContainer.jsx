@@ -1,5 +1,5 @@
 //segundo bloque
-import { consultarBDD } from "../../components/utils/funciones.js"
+import { getProductos } from "../utils/firebase.js"
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from 'react'
 import { ItemList } from '../ItemList/ItemList.jsx'
@@ -9,13 +9,13 @@ export const ItemListContainer = ({ }) => {
 
     useEffect(() => {
         if (idCategoria) {
-            consultarBDD('../json/products.json').then(products => {
+            getProductos().then(products => {
                 const prods = products.filter(prod => prod.idCategoria === idCategoria)
                 const items = <ItemList prods={prods} plantilla="Item"/> 
                 setProductos(items)
             })
         } else {
-            consultarBDD('./json/products.json').then(prods => {
+            getProductos().then(prods => {
                 const items = <ItemList prods={prods} plantilla="Item"/>
                 setProductos(items)
             })
