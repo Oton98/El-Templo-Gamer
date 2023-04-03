@@ -17,7 +17,9 @@ export const Cart = () => {
                 </>
                 :
                 <div className="container cartContainer">
+                    <div className="contenedor"> 
                     <ItemList prods={carrito} plantilla="ItemCart" />
+                    </div>
                     <div className="divButtons">
                         <p>Resumen del compra: ${new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
                         <button className="btn btn-danger" onClick={() =>
