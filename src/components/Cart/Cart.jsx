@@ -12,8 +12,12 @@ export const Cart = () => {
         <>
             {carrito.length === 0
                 ? <>
-                    <h2> El carrito esta vacío</h2>
-                    <Link className="nav-link" to={"/"}><button className="btn btn-primary">Continuar comprando</button></Link>
+                    <div className="contenedor-carrito-vacio">
+                        <div className="carrito-vacio">
+                            <h2> El carrito esta vacío</h2>
+                            <Link className="nav-link" to={"/"}><button className="btn btn-primary">Continuar comprando</button></Link>
+                        </div>
+                    </div>
                 </>
                 :
                 <div className="container cartContainer">

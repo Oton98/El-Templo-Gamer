@@ -246,3 +246,12 @@ body {
     justify-content: space-between;
     margin: 24px;
 }
+
+.carrito-vacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+    row-gap: 30px;
+}
