@@ -93,7 +93,7 @@ export const Checkout = () => {
                                 <div className="formularioCompra-text-buttons">
                                     <div className="formularioCompra-text-inputButton">
                                         <button type="submit" className="btn btn-primary">Realizar Compra</button>
-                                        <button type="submit" className="btn btn-primary">Volver al Carrito</button>
+                                        <Link to={'/cart'}><button type="button" className="btn btn-primary">Volver al Carrito</button></Link>
                                     </div>
                                 </div>
                             </form>
