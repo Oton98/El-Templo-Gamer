@@ -15,17 +15,19 @@ export const ItemCart = ({ item }) => {
         <p>Cantidad: {cant}</p>
         <p>Precio Unitario: ${new Intl.NumberFormat('de-DE').format(precio)}</p>
         <p>Subtotal: ${new Intl.NumberFormat('de-DE').format(cant * precio)}</p>
-        <div>
-          <button
-            className="btn btn-danger"
-            onClick={() => removeItem(id)}
-          >
-            {" "}
-            Borrar producto del carrito
-          </button>
-        </div>
+      </div>
+      <div className="itemcard-text-button">
+        <button
+          className="btn btn-danger"
+          onClick={() => removeItem(id)}
+        >
+          {" "}
+          Borrar producto del carrito
+        </button>
       </div>
     </div>
   );
 };
+
+
 

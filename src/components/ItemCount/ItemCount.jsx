@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 export const ItemCount = ({ valInicial, stock, onAdd }) => {
 
@@ -15,7 +16,17 @@ export const ItemCount = ({ valInicial, stock, onAdd }) => {
                 <button className="btn btn-dark" id="btnAgregar" onClick={() => sumar()}>+</button>
             </div>
             <div className="counter-button">
-                <button className="btn btn-light" onClick={() => { onAdd(contador) }}>Agregar al Carrito</button>
+                <button className="btn btn-light" onClick={() => { onAdd(contador)
+                 toast.success('El producto ha sido agregado al carrito.', {
+                    position: "bottom-right",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                    }); }}>Agregar al Carrito</button>
             </div>
         </div>
     );

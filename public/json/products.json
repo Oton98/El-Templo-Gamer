@@ -5,91 +5,342 @@
         "nombre": "Smarthphone",
         "marca": "Samsung",
         "modelo": "A 04",
-        "precio": 50000,
+        "precio": 45000,
         "stock": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/samsungA04.jpg?alt=media&token=790581f2-594b-40fb-b732-88c36f73c4ec"
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/samsungA04.jpg?alt=media&token=e561af03-a799-4e55-ba66-1d0f816f6bc4"
 
     },
-
     {
         "id": 2,
         "idCategoria": "Celulares",
         "nombre": "Smarthphone",
         "marca": "Samsung",
-        "modelo": "A 04",
+        "modelo": "A 13",
         "precio": 50000,
         "stock": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/samsungA04.jpg?alt=media&token=790581f2-594b-40fb-b732-88c36f73c4ec"
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/samsungA13.png?alt=media&token=8055db2b-39df-44e8-8a80-86e46c0874ea"
 
     },
-
     {
         "id": 3,
+        "idCategoria": "Celulares",
+        "nombre": "Smarthphone",
+        "marca": "Samsung",
+        "modelo": "A 22",
+        "precio": 64000,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/samsungA22.png?alt=media&token=ac2f7abf-5a14-431e-9340-7d2f0a295806"
+
+    },
+    {
+        "id": 4,
+        "idCategoria": "Celulares",
+        "nombre": "Smarthphone",
+        "marca": "Samsung",
+        "modelo": "A 23",
+        "precio": 71000,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/samsungA23.png?alt=media&token=1ecb7b50-0383-4583-a730-d63b14de9af2"
+
+    },
+    {
+        "id": 5,
+        "idCategoria": "Celulares",
+        "nombre": "Smarthphone",
+        "marca": "Samsung",
+        "modelo": "A 33",
+        "precio": 75000,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/samsungA33.png?alt=media&token=961bc9eb-b627-40f5-99be-b3ae648e2d31"
+
+    },
+    {
+        "id": 30,
+        "idCategoria": "Motherboards",
+        "nombre": "Motherboard",
+        "marca": "Asus",
+        "modelo": "PRIME Z390-A 8va&9na Gen S1151",
+        "precio": 67300,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/Mother%20ASUS%20PRIME%20Z390-A%208va%269na%20Gen%20S1151.jpg?alt=media&token=2048ebf1-deb2-453d-bd86-9d45af42e037"
+
+    },
+    {
+        "id": 31,
+        "idCategoria": "Motherboards",
+        "nombre": "Motherboard",
+        "marca": "Asus",
+        "modelo": "Gigabyte Z370 AORUS Gaming K3 (8va Gen) S1151",
+        "precio": 73500,
+        "stock": 17,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/Mother%20Gigabyte%20Z370%20AORUS%20Gaming%20K3%20(8va%20Gen)%20S1151.jpg?alt=media&token=f05b1000-0e88-46ad-91ee-f287922575fd"
+
+    },
+    {
+        "id": 32,
         "idCategoria": "Motherboards",
         "nombre": "Motherboard",
         "marca": "Asus",
         "modelo": "B550M-K",
         "precio": 47000,
         "stock": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/asus-b550m.jpg?alt=media&token=666d77fb-4448-48d3-ab1a-e8bfd29bcce3"
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/asus-b550m.jpg?alt=media&token=3421d7d2-329a-4692-90de-02ae0b02abf2"
 
     },
 
     {
-        "id": 4,
+        "id": 20,
         "idCategoria": "Memoria",
         "nombre": "Disco Solido ",
         "marca": "Kingston",
         "modelo": "SA400S37/480G",
         "precio": 13000,
         "stock": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/kingston480g.jpg?alt=media&token=da4e2447-45bb-4978-9205-a5ff8e48512e"
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/kingston480g.jpg?alt=media&token=74798b15-d9bc-4795-98f1-275ef4cdd3ad"
 
     },
 
     {
-        "id": 5,
+        "id": 40,
         "idCategoria": "Ram",
         "nombre": "Memoria Ram",
         "marca": "Kingston",
         "modelo": "Fury Beast",
         "precio": 14000,
         "stock": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/fury-ram.jpg?alt=media&token=744b8f75-0c66-4010-a239-1999ad93c63a"
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/fury-ram.jpg?alt=media&token=5e966bea-ea05-45ad-a3ed-1c3c71994ae9"
 
     },
     
     {
-        "id": 30,
+        "id": 50,
         "idCategoria": "Microprocesadores",
         "nombre": "Microprocesador",
         "marca": "Intel",
         "modelo": "I3 10105 3.7GHZ S1200",
         "precio": 43700,
         "stock": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/I3.jpg?alt=media&token=039ca9d0-8cfa-4e47-a087-64ef82c1a241"
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/I3.jpg?alt=media&token=0b20e4d4-b79d-40f7-8bd4-3d1c252be637"
 
     },
     {
-        "id": 31,
+        "id": 51,
         "idCategoria": "Microprocesadores",
         "nombre": "Microprocesador",
         "marca": "Intel",
         "modelo": "I5 11400 S1200",
         "precio": 56890,
         "stock": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/i5.jpg?alt=media&token=248c4725-1159-4c29-99b6-6209b78fef25"
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/i5.jpg?alt=media&token=07e97957-b9f6-4c8e-8bd5-73378423724a"
 
     },
     {
-        "id": 32,
+        "id": 52,
         "idCategoria": "Microprocesadores",
         "nombre": "Microprocesador",
         "marca": "Intel",
         "modelo": "I7 10700F S1700",
         "precio": 13000,
         "stock": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/I7.jpg?alt=media&token=86816c54-9057-4aac-8346-3867fc35bcca"
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/I7.jpg?alt=media&token=4ebf993a-345c-478f-96d0-d7c00a2ed901"
+
+    },
+    {
+        "id": 71,
+        "idCategoria": "Televisores",
+        "nombre": "Televisores",
+        "marca": "Lg",
+        "modelo": "LG OLED C1 4K ThinQ AI 77''",
+        "precio": 130000,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/LG%20OLED%20C1%204K%20ThinQ%20AI%2077''.jpg?alt=media&token=9fe2154c-6544-4200-a974-785c2f65121f"
+
+    },
+    {
+        "id": 72,
+        "idCategoria": "Televisores",
+        "nombre": "Televisores",
+        "marca": "Lg",
+        "modelo": "LG QNED 4K ThinQ AI 86''",
+        "precio": 160000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/LG%20QNED%204K%20ThinQ%20AI%2086''.jpg?alt=media&token=b81f7f4c-505c-40eb-b3e2-e64bbea2d9d7"
+
+    },
+    {
+        "id": 73,
+        "idCategoria": "Televisores",
+        "nombre": "Televisores",
+        "marca": "Lg",
+        "modelo": "LG UHD 4K ThinQ AI 86''",
+        "precio": 260000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/LG%20UHD%204K%20ThinQ%20AI%2086''.jpg?alt=media&token=d518c2d9-1db7-4598-ba82-bda0aa2e2118"
+
+    },
+    {
+        "id": 90,
+        "idCategoria": "PlacasDeVideos",
+        "nombre": "Placa de video",
+        "marca": "AMD",
+        "modelo": "AsRock Radeon RX 6800 XT Phantom Gaming D OC 16Gb GDDR6",
+        "precio": 123000,
+        "stock": 13,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/AsRock%20Radeon%20RX%206800%20XT%20Phantom%20Gaming%20D%20OC%2016Gb%20GDDR6.png?alt=media&token=c39d3d70-28da-4a28-913d-08c1cd016c4c"
+
+    },
+    {
+        "id": 91,
+        "idCategoria": "PlacasDeVideos",
+        "nombre": "Placa de video",
+        "marca": "AMD",
+        "modelo": "ASUS AMD Radeon RX 570 Expedition 4Gb GDDR5",
+        "precio": 112000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/ASUS%20AMD%20Radeon%20RX%20570%20Expedition%204Gb%20GDDR5.jpg?alt=media&token=367c7374-c8f5-49a1-887c-67f9248e07d6"
+
+    },
+    {
+        "id": 93,
+        "idCategoria": "PlacasDeVideos",
+        "nombre": "Placa de video",
+        "marca": "AMD",
+        "modelo": "Powercolor Radeon RX 550 Red Dragon 4GB GDDR5",
+        "precio": 476000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/Powercolor%20Radeon%20RX%20550%20Red%20Dragon%204GB%20GDDR5.png?alt=media&token=99fc58f4-88af-4590-b43b-9d08ba4c78ad"
+
+    },
+    {
+        "id": 94,
+        "idCategoria": "PlacasDeVideos",
+        "nombre": "Placa de video",
+        "marca": "AMD",
+        "modelo": "Sentey AMD Radeon RX 560 4Gb GDDR5",
+        "precio": 93250,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/Sentey%20AMD%20Radeon%20RX%20560%204Gb%20GDDR5.jpg?alt=media&token=4541bae5-5a72-47fc-8941-0e1cef11375d"
+
+    },
+    {
+        "id": 95,
+        "idCategoria": "PlacasDeVideos",
+        "nombre": "Placa de video",
+        "marca": "NVIDIA",
+        "modelo": "NVIDIA GeForce GTX 1660 SUPER Triple Fan TUF OC 6Gb GDDR6",
+        "precio": 742000,
+        "stock": 19,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/NVIDIA%20GeForce%20GTX%201660%20SUPER%20Triple%20Fan%20TUF%20OC%206Gb%20GDDR6.jpg?alt=media&token=edced38c-9671-4daa-a546-870c5905cc66"
+
+    },
+    {
+        "id": 96,
+        "idCategoria": "PlacasDeVideos",
+        "nombre": "Placa de video",
+        "marca": "NVIDIA",
+        "modelo": "NVIDIA GeForce RTX 3050 Uprising Dual Fan 8Gb GDDR6 LHR",
+        "precio": 425000,
+        "stock": 12,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/NVIDIA%20GeForce%20RTX%203050%20Uprising%20Dual%20Fan%208Gb%20GDDR6%20LHR.png?alt=media&token=120f25ab-2b31-4b25-b2e1-8288cd3322bc"
+
+    },
+    {
+        "id": 97,
+        "idCategoria": "PlacasDeVideos",
+        "nombre": "Placa de video",
+        "marca": "NVIDIA",
+        "modelo": "NVIDIA GeForce RTX 4080 GAME ROCK 16GB GDDR6X",
+        "precio": 823000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/NVIDIA%20GeForce%20RTX%204080%20GAME%20ROCK%2016GB%20GDDR6X.png?alt=media&token=6f15f5b1-d5fa-4a18-b3c5-dcfd2c851048"
+
+    },
+    {
+        "id": 130,
+        "idCategoria": "Muebles",
+        "nombre": "Escritorio PC",
+        "marca": "InfiniteWood",
+        "modelo": "EC-100",
+        "precio": 67000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/Escritorio%20PC%20EC-100.png?alt=media&token=2d2a190c-1544-493b-baee-7946a9a06dba"
+
+    },
+    {
+        "id": 131,
+        "idCategoria": "Muebles",
+        "nombre": "Escritorio PC",
+        "marca": "InfiniteWood",
+        "modelo": "PR-3214",
+        "precio": 50200,
+        "stock": 4,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/Escritorio%20PC%20PR-3214.jpg?alt=media&token=257960e1-8c9c-4814-8e96-d75d92c38758"
+
+    },
+    {
+        "id": 132,
+        "idCategoria": "Muebles",
+        "nombre": "Escritorio PC",
+        "marca": "InfiniteWood",
+        "modelo": "TC-453",
+        "precio": 60320,
+        "stock": 7,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/Escritorio%20PC%20TC-453.jpg?alt=media&token=3118d8f2-5d43-45f2-a0b9-09675bd41b2c"
+
+    },
+    {
+        "id": 133,
+        "idCategoria": "Muebles",
+        "nombre": "Escritorio PC",
+        "marca": "InfiniteWood",
+        "modelo": "TE-351",
+        "precio": 43000,
+        "stock": 3,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/Escritorio%20PC%20TE-351.jpg?alt=media&token=791072ed-a77b-469f-adbd-6a771b8db10c"
+
+    },
+    {
+        "id": 144,
+        "idCategoria": "Muebles",
+        "nombre": "Silla Gamer",
+        "marca": "PRAM",
+        "modelo": "LEVEL UP BATMAN COMIC",
+        "precio": 58000,
+        "stock": 9,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/SILLA%20GAMER%20LEVEL%20UP%20BATMAN%20COMIC.jpg?alt=media&token=03eba40d-d56d-48b8-8a13-ab277d6b6fea"
+
+    },
+    {
+        "id": 145,
+        "idCategoria": "Muebles",
+        "nombre": "Silla Gamer",
+        "marca": "PRAM",
+        "modelo": "PRSG07NNA",
+        "precio": 64000,
+        "stock": 7,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/SILLA%20GAMER%20PRAM%20PRSG07NNA.jpg?alt=media&token=5c4c6cc8-cdbd-4d2f-b108-ce38554d5309"
+
+    },
+    {
+        "id": 146,
+        "idCategoria": "Muebles",
+        "nombre": "Silla Gamer",
+        "marca": "PRAM",
+        "modelo": "PRSG55NAZ",
+        "precio": 85300,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/SILLA%20GAMER%20PRAM%20PRSG55NAZ.jpg?alt=media&token=3193c085-70f1-4011-aa20-d683eae89bdd"
+
+    },
+    {
+        "id": 147,
+        "idCategoria": "Muebles",
+        "nombre": "Silla Gamer",
+        "marca": "PRAM",
+        "modelo": "PRSG98NAM",
+        "precio": 53000,
+        "stock": 4,
+        "img": "https://firebasestorage.googleapis.com/v0/b/el-templo-gamer.appspot.com/o/SILLA%20GAMER%20PRAM%20PRSG98NAM.jpg?alt=media&token=da4ba3b9-94dc-4907-8626-2021238ed64d"
 
     }
 

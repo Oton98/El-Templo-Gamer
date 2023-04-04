@@ -17,16 +17,23 @@ export const Cart = () => {
                 </>
                 :
                 <div className="container cartContainer">
-                    <div className="contenedor"> 
-                    <ItemList prods={carrito} plantilla="ItemCart" />
+                    <div className="cart-Title">
+                        <h1>Productos en el Carrito</h1>
                     </div>
-                    <div className="divButtons">
-                        <p>Resumen del compra: ${new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
-                        <button className="btn btn-danger" onClick={() =>
-                            emptyCart()}>Vaciar Carrito</button>
+                    <div className="contenedor">
+                        <ItemList prods={carrito} plantilla="ItemCart" />
                     </div>
-                    <Link className="nav-link" to={"/"}><button className="btn btn-dark">Continuar Compra</button></Link>
-                    <Link className="nav-link" to={"/checkout"}><button className="btn btn-dark">Finalizar Compra</button></Link>
+                    <div className="contenedor-resumen">
+                        <div className="divButtons contenedor-resumen-text">
+                            <p>Resumen del compra: ${new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
+                        </div>
+                        <div className="contenedor-resumen-buttons">
+                            <button className="btn btn-danger" onClick={() =>
+                                emptyCart()}>Vaciar Carrito</button>
+                            <Link className="nav-link" to={"/"}><button className="btn btn-dark">Continuar Compra</button></Link>
+                            <Link className="nav-link" to={"/checkout"}><button className="btn btn-dark">Finalizar Compra</button></Link>
+                        </div>
+                    </div>
                 </div>
             }
         </>

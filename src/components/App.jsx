@@ -19,11 +19,11 @@ import { DarkModeProvider } from '../Context/DarkModeContext';
 import { CarritoProvider } from '../Context/CarritoContext';
 
 //Firebase
-import { cargarBDD, getProductos } from './utils/firebase';
+// import { cargarBDD, getProductos } from './utils/firebase';
 
-
+// cargarBDD()
 export const App = () => {
-  // cargarBDD()
+  
   // getProductos()
 
   return (

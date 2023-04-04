@@ -12,7 +12,7 @@ export const Categorias = React.memo(() => {
                 <li><Link className="dropdown-item" to={'/category/Motherboards'}>Motherboards</Link></li>
                 <li><Link className="dropdown-item" to={'/category/Memoria'}>Almacenamiento</Link></li>
                 <li><Link className="dropdown-item" to={'/category/Ram'}>Memoria RAM</Link></li>
-                <li><Link className="dropdown-item" to={'/category/PlacaDeVideos'}>Placas de video</Link></li>
+                <li><Link className="dropdown-item" to={'/category/PlacasDeVideos'}>Placas de video</Link></li>
             </ul>
         </li>
 

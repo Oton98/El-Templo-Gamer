@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(229, 229, 229);
 }
 
@@ -12,6 +12,7 @@ body{
     margin: 3vw;
     padding: 0 10vw;
 
+
 }
 
 .card {
@@ -21,24 +22,24 @@ body{
 
 /*tengo que modificar esto*/
 
-.cardBodyDark{
+.cardBodyDark {
     background-color: rgb(71, 71, 71);
     text-align: center;
 }
 
-.itemDetailBodyDark{
+.itemDetailBodyDark {
     background-color: rgb(71, 71, 71);
     color: white;
 }
 
-.darkMode{
+.darkMode {
     background-color: black;
     color: grey;
 }
 
-.cardContainer{
+.cardContainer {
     margin-top: 3%;
-    margin-left: 26,5%;
+    margin-left: 26, 5%;
 
 }
 
@@ -47,16 +48,12 @@ body{
 
 }
 
-.cardCart{
-    max-width: 640px;
-}
-
-.cantCarrito{
+.cantCarrito {
     color: white;
     margin-left: 8px;
 }
 
-.body-card{
+.body-card {
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -69,21 +66,22 @@ body{
     column-gap: 32px;
 }
 
-.body-card-image{
-   display: flex;
-   justify-content: left;
+.body-card-image {
+    display: flex;
+    justify-content: left;
 }
 
-.body-card-text{
+.body-card-text {
     display: flex;
 }
 
-.body-card-corp{
+.body-card-corp {
     padding: 16px;
     border: 1px solid rgb(212, 212, 212);
+    
 }
 
-.body-card-corp-text{
+.body-card-corp-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -93,10 +91,10 @@ body{
 .body-card-corp-text p:first-child {
     font-weight: bold;
     font-size: 3vw;
-  }
+}
 
 
-.body-card-corp-buttons{
+.body-card-corp-buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,7 +102,7 @@ body{
     margin-bottom: 16px;
 }
 
-.counter{
+.counter {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -114,16 +112,137 @@ body{
     margin-bottom: 16px;
 }
 
-.counter-button{
+.counter-button {
     margin-top: 16px;
     margin-bottom: 16px;
+
 }
 
 .contenedor {
     display: flex;
     flex-direction: row;
+    column-gap: 24px;
+    row-gap: 24px;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 1%;
+    padding: 8px;
+
 }
 
 .itemcard {
-    
+    width: 14vw;
+    background-color: rgb(219, 219, 219);
+    border: 2px solid rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.itemcard-text {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 5%;
+
+}
+
+.itemcard-text-button {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    padding-bottom: 24px;
+}
+
+.itemcard-img {
+    margin: 8px;
+    padding: 8px;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 5%;
+}
+
+.itemcard-img img {
+    width: 100%;
+}
+
+.contenedor-resumen-buttons {
+    display: flex;
+    column-gap: 24px;
+    margin: 20px 0px;
+}
+
+.contenedor-resumen-text {
+    margin: 20px 0px;
+}
+
+.contenedor-resumen-text p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cart-Title {
+    margin-top: 3vw;
+}
+
+.container-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.formularioCompra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 1%;
+    padding: 8px;
+    margin: 3vw;
+    width: 50%;
+}
+
+.formularioCompra-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.formularioCompra-text {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(201, 201, 201);  
+    margin: 24px;
+}
+
+.formularioCompra-text-inputs {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 1%;
+    margin: 24px;
+}
+
+.formularioCompra-text-inputForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 64px;
+    margin: 24px 16px;
+}
+
+.formularioCompra-text-inputButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px;
 }
