@@ -14,30 +14,38 @@ export const Checkout = () => {
         e.preventDefault();
 
         const data = new FormData(datosForm.current);
-        const cliente = Object.fromEntries(data);
+        const email = data.get("email");
+        const validacionEmail = data.get("validacionEmail");
 
-        // Actualizar el stock de cada producto en la base de datos
-        for (const prodCarrito of carrito) {
-            const prodBDD = await getProducto(prodCarrito.id);
-            prodBDD.stock -= prodCarrito.cant;
-            await updateProducto(prodBDD.id, prodBDD);
+        if (email === validacionEmail) {
+            const data = new FormData(datosForm.current);
+            const cliente = Object.fromEntries(data);
+
+            // Actualizar el stock de cada producto en la base de datos
+            for (const prodCarrito of carrito) {
+                const prodBDD = await getProducto(prodCarrito.id);
+                prodBDD.stock -= prodCarrito.cant;
+                await updateProducto(prodBDD.id, prodBDD);
+            }
+
+            // Crear la orden de compra en la base de datos
+            const ordenCompra = await createOrdenCompra(
+                cliente,
+                carrito,
+                totalPrice(),
+                new Date().toISOString()
+            );
+
+            // Mostrar un mensaje de éxito al usuario
+            toast.success(`Orden de compra concretada por el total de $ ${new Intl.NumberFormat('de-DE').format(totalPrice())}, el id es ${ordenCompra.id}`);
+
+
+            datosForm.current.reset();
+            emptyCart();
+            navigate("/");
+        } else {
+            toast.error("Validación de Email Incorrecta.");
         }
-
-        // Crear la orden de compra en la base de datos
-        const ordenCompra = await createOrdenCompra(
-            cliente,
-            carrito,
-            totalPrice(),
-            new Date().toISOString()
-        );
-
-        // Mostrar un mensaje de éxito al usuario
-        toast.success(`Orden de compra concretada por el total de $ ${new Intl.NumberFormat('de-DE').format(totalPrice())}, el id es ${ordenCompra.id}`);
-
-
-        datosForm.current.reset();
-        emptyCart();
-        navigate("/");
     }
 
     return (
@@ -63,7 +71,11 @@ export const Checkout = () => {
                                     </div>
                                     <div className="formularioCompra-text-inputForm">
                                         <label htmlFor="email" className="form-label">Email:</label>
-                                        <input type="email" className="form-compra" name="email" placeholder="juanperez00@emaildeprueba.com" required />
+                                        <input type="email" className="form-compra" name="email" placeholder="juanperez00@emaildeprueba.com" id="email" required />
+                                    </div>
+                                    <div className="formularioCompra-text-inputForm">
+                                        <label htmlFor="validacionEmail" className="form-label">Repetir Email:</label>
+                                        <input type="email" className="form-compra" name="validacionEmail" placeholder="Repetir Email Ingresado" id="validacionEmail" required />
                                     </div>
                                     <div className="formularioCompra-text-inputForm">
                                         <label htmlFor="dni" className="form-label">DNI:</label>
